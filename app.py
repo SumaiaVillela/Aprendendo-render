@@ -1,7 +1,7 @@
-from Flask import Flask
+from flask import Flask
 
 app = Flask(__name__)
 
-@app.route(“/”)
-Def index():
-Return "Olá, <b>tudo bem</b>?"
+@app.route("/")
+def index():
+    return "Olá, <b>tudo bem</b>?"
